@@ -124,16 +124,16 @@ Each spec = ONE testable, deployable unit.
 - Focus: WHAT the feature does (not HOW)
 
 ## Acceptance Criteria Format
-Always write acceptance criteria in Given/When/Then format:
+Always write acceptance criteria in German using the Angenommen/Wenn/Dann format:
 
 ```
-- [ ] Given [precondition], when [action], then [expected result]
+- [ ] Angenommen [Vorbedingung], wenn [Aktion], dann [Ergebnis]
 ```
 
 Examples:
-- [ ] Given the user is logged in, when they submit an empty form, then a validation error is shown for each required field
-- [ ] Given a task exists, when the user clicks "Delete", then a confirmation dialog appears before the task is removed
-- [ ] Given the API is unavailable, when the user submits the form, then an error message is shown and their input is preserved
+- [ ] Angenommen der Nutzer ist eingeloggt, wenn er ein leeres Formular abschickt, dann wird für jedes Pflichtfeld eine Validierungsfehlermeldung angezeigt
+- [ ] Angenommen eine Aufgabe existiert, wenn der Nutzer auf „Löschen" klickt, dann erscheint ein Bestätigungsdialog bevor die Aufgabe entfernt wird
+- [ ] Angenommen die API ist nicht erreichbar, wenn der Nutzer das Formular abschickt, dann wird eine Fehlermeldung angezeigt und die Eingabe bleibt erhalten
 
 This format ensures every criterion is unambiguous and directly testable by QA.
 
